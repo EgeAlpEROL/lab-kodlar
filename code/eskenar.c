@@ -2,16 +2,16 @@
 
 int main(void)
 {
-    int sayi, i, j;
+    int sayi, i, j, k;
     printf("Sayı gir: ");
     scanf("%d", &sayi);
-    for (i = 1; i <= sayi; i++)
+    for (i = 0; i < sayi; i++)
     {
-        for (j = sayi - i; j <= sayi; j--)
+        for (j = i; j < sayi; j++)
         {
             printf(" ");
         }
-        for (j = 1; j <= i; j++)
+        for (k = 0; k < (2*i) + 1; k++)
         {
             printf("*");
         }
