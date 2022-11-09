@@ -6,7 +6,7 @@ int main(void)
 {
     int gun, km;
     printf("Arabanin turu: ");
-    char tur; //= getch();
+    char tur;
     scanf("%c", &tur);
     printf("kac gun:");
     scanf("%d", &gun);
