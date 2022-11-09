@@ -17,7 +17,7 @@ int main(void)
             case 3:honda++;hondat += tutar; break;
             case 4:ford++;fordt += tutar; break;
             case 111: break;
-            default:printf("1234");
+            default:printf("1234 olmalı");
         }
     }
 }
