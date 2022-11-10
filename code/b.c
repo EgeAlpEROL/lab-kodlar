@@ -23,30 +23,57 @@ int main(void)
             default:printf("1234 olmalı");
         }
     }
-    int buy1 = buyuk(reno, mazda);
-    int buy2 = buyuk(honda, ford);
+
+    
+    buy1 = buyuk(reno, mazda);
+    buy2 = buyuk(honda, ford);
     if (buy1 < buy2)
     {
         if (buy2 == honda)
         {
-            printf("En fazla gelen araç markası: Honda");
+            printf("En fazla gelen araç markası: Honda (%d)",honda);
         }
         else if (buy2 == ford)
         {
-            printf("En fazla gelen araç markası: Ford");
+            printf("En fazla gelen araç markası: Ford (%d)",ford);
         }
     }
     else
     {
         if (buy1 == reno)
         {
-            printf("En fazla gelen araç markası: Reanult");
+            printf("En fazla gelen araç markası: Reanult (%d)",reno);
         }
         else if (buy2 == mazda)
         {
-            printf("En fazla gelen araç markası: Mazda");
+            printf("En fazla gelen araç markası: Mazda (%d)",mazda);
         }
+    }
 
+
+    buy1 = buyuk(renot, mazdat);
+    buy2 = buyuk(hondat, fordt);
+    if (buy1 < buy2)
+    {
+        if (buy2 == hondat)
+        {
+            printf("En fazla gelir elde edilen: Honda (%d)",hondat);
+        }
+        else if (buy2 == fordt)
+        {
+            printf("En fazla gelir elde edilen: Ford (%d)",fordt);
+        }
+    }
+    else
+    {
+        if (buy1 == renot)
+        {
+            printf("En fazla gelir elde edilen: Reanult (%d)",renot);
+        }
+        else if (buy2 == mazdat)
+        {
+            printf("En fazla gelir elde edilen: Mazda (%d)",mazdat);
+        }
     }
 }
 
@@ -60,8 +87,5 @@ int buyuk(int a, int b)
     {
         return b;
     }
-    else
-    {
-        return 0;
-    }
+    return 0;
 }
