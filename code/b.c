@@ -24,7 +24,12 @@ int main(void)
         }
     }
 
-    
+    if ( (reno + mazda + honda + ford) == 0 )
+    {
+        printf("Hiçbir Marka girilmemiş.");
+        return 0;
+    }
+
     buy1 = buyuk(reno, mazda);
     buy2 = buyuk(honda, ford);
     if (buy1 < buy2)
