@@ -44,7 +44,7 @@ int main(void)
         {
             printf("En fazla gelen araç markası: Reanult (%d)",reno);
         }
-        else if (buy2 == mazda)
+        if (buy1 == mazda)
         {
             printf("En fazla gelen araç markası: Mazda (%d)",mazda);
         }
@@ -70,7 +70,7 @@ int main(void)
         {
             printf("En fazla gelir elde edilen: Reanult (%d)",renot);
         }
-        else if (buy2 == mazdat)
+        else if (buy1 == mazdat)
         {
             printf("En fazla gelir elde edilen: Mazda (%d)",mazdat);
         }
