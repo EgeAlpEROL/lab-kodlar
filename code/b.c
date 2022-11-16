@@ -43,7 +43,7 @@ int main(void)
             printf("En fazla gelen araç markası: Ford (%d)",ford);
         }
     }
-    else
+    else if (buy1 > buy2)
     {
         if (buy1 == reno)
         {
@@ -53,6 +53,10 @@ int main(void)
         {
             printf("En fazla gelen araç markası: Mazda (%d)",mazda);
         }
+    }
+    else
+    {
+        printf("Tum markalar esit sayıda gelmis");
     }
 
 
@@ -69,7 +73,7 @@ int main(void)
             printf("En fazla gelir elde edilen: Ford (%d)",fordt);
         }
     }
-    else
+    else if (buy1 > buy2)
     {
         if (buy1 == renot)
         {
@@ -80,10 +84,18 @@ int main(void)
             printf("En fazla gelir elde edilen: Mazda (%d)",mazdat);
         }
     }
+    else
+    {
+        printf("Tüm tutarlar birbirine esit.");
+    }
 }
 
 int buyuk(int a, int b)
 {
+    if (a == b)
+    {
+        return 0;
+    }
     if (a > b)
     {
         return a;
