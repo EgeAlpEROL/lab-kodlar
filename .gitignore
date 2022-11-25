@@ -1,6 +1,5 @@
 .vscode/c_cpp_properties.json
 .vscode/tasks.json
 *.exe
-code/asd.c
 code/.idea
-code/dont.c
+pr/
