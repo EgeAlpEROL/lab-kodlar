@@ -15,8 +15,8 @@ double orthesapla(int dizi[5])
 
 int main(void)
 {
-    double ort;
     int saylar[5];
+    double ort;
     for (int i = 0; i < 5; i++)
     {
         printf("%d. Sayi: ", i+1);
