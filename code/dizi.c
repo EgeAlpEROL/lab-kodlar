@@ -1,6 +1,4 @@
 #include <stdio.h>
-//main 5 int dizi
-//ortbul(int[x])
 
 double orthesapla(int dizi[5])
 {
@@ -24,5 +22,4 @@ int main(void)
         ort = orthesapla(saylar);
     }
     printf("Ortalama: %.2f", ort);
-
 }
