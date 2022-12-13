@@ -14,7 +14,7 @@ int hesapla()
     {
         printf("%d. Final Puani: ", i+1);
         scanf("%d",&final[i]);
-        ort[i] = final[i] * 0.4 + vize[i] * 0.6; //Hesaplama için ayrıca loop olmaması için ort burda
+        ort[i] = final[i] * 0.4 + vize[i] * 0.6; //Hesaplamada ayrıca loop olmaması için ort burda
     }
 }
 
